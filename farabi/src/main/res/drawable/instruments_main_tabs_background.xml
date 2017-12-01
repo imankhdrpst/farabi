@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="@dimen/instrument_title_background_radius" />
+
+    <gradient android:angle="270"
+        android:centerColor="@color/swipe_menu_lighter_gray"
+        android:endColor="@color/swipe_menu_lighter_gray"
+        android:startColor="@color/swipe_menu_lighter_gray"
+        />
+</shape>

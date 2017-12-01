@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:paddingTop="@dimen/padding_top_subject_dialog"
+    android:paddingBottom="@dimen/padding_bottom_subject_dialog"
+    android:paddingRight="@dimen/padding_right_subject_dialog"
+    android:paddingLeft="@dimen/padding_left_subject_dialog"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="@null"
+            android:dividerHeight="0dp"
+            android:layout_margin="@dimen/margin_subject_dialog_recyclerview"
+            android:id="@+id/lst_subjects_list"
+            ></android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

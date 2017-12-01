@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_section_item"
+    android:background="@drawable/instruments_title_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_instrument_section_picture_viewer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_image_in_section_item"/>
+
+        <com.soutazin.farabiSchool.ui.DPTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_instrument_title"
+            android:textColor="@color/grey_700"
+            android:layout_marginTop="@dimen/margin_top_text_in_section_item"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_title_in_section_item"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

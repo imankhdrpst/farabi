@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/margin_bottom_subject_item"
+    android:background="@drawable/instruments_title_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_bottom_main_content_subject_item"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.soutazin.farabiSchool.ui.DPTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_subject_title"
+                android:textSize="@dimen/text_size_title_in_subject_item"
+                app:teleniumTypeFace="title"
+                android:padding="@dimen/padding_title_in_subject_item"
+                android:textColor="@color/grey_700"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/margin_top_title_in_subject_item"
+                android:gravity="right"
+                />
+
+            <com.soutazin.farabiSchool.ui.DPTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_subject_description"
+                android:textColor="@color/grey_700"
+                android:layout_marginTop="@dimen/margin_top_description_in_subject_item"
+                android:padding="@dimen/padding_description_in_subject_item"
+                android:textSize="@dimen/text_size_description_in_subject_item"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_bottom_description_in_subject_item"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay_subjects_pictures_holder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_picture_in_subject"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:layout_margin="@dimen/margin_picture_in_subject_place_holder_in_subject_item">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/blue_grey_500"
+                android:paddingRight="@dimen/padding_right_seperator_in_subject_item"
+                android:paddingLeft="@dimen/padding_left_seperator_in_subject_item"
+                android:layout_alignParentBottom="true"
+                /><!--ly divider -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="@dimen/padding_right_seperator_in_subject_item"
+                android:paddingLeft="@dimen/padding_left_seperator_in_subject_item"
+                android:background="@color/blue_grey_200"/><!--ly divider  -->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lst_picture_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

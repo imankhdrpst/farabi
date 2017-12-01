@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635389600967",
+    "firebase_url": "https://android-messenger-api-2.firebaseio.com",
+    "project_id": "android-messenger-api-2",
+    "storage_bucket": "android-messenger-api-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635389600967:android:4ff0599e6c13dd49",
+        "android_client_info": {
+          "package_name": "com.telenium.telenium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635389600967-dpftt0n494ckhbauqe4ktc38vu00n2ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telenium.telenium",
+            "certificate_hash": "92A98082FA4B36D8FF022CFFF4FDFBC7FD09F524"
+          }
+        },
+        {
+          "client_id": "635389600967-97bd47m6afretj1jg8susncdka6vcp37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxh6xvB6zUlCn69mta1DM-KnVOoQYMfw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635389600967-97bd47m6afretj1jg8susncdka6vcp37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

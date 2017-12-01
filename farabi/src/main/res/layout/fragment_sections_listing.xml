@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow"
+        android:alpha="0.76"></LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:background="@drawable/main_list_background"
+        android:dividerHeight="0dp"
+        android:divider="@color/grey_400_transparent"
+        android:layout_margin="@dimen/margin_subject_dialog_recyclerview"
+        android:id="@+id/lst_listing_sections"
+        ></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

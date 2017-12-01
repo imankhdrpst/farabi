@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shadow"
+        android:alpha="0.76"
+        >
+
+        <com.soutazin.farabiSchool.ui.DPTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_main_school_introduction"
+            android:textColor="@color/grey_700"
+            android:textColorLink="@android:color/black"
+            android:lineSpacingExtra="@dimen/line_spacing_main_content"
+            android:layout_margin="@dimen/margin_action_bar_items"
+            android:textSize="@dimen/text_size_main_text_content"
+            android:padding="@dimen/padding_main_text_content"
+            android:background="@android:color/transparent"
+           />
+
+    </RelativeLayout>
+
+</LinearLayout>

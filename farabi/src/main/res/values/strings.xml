@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Farabi</string>
+    <string name="size_config">Default</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rohab_app">تیونر رهاب</string>
+    <string name="rohab_app_en">Rohab Tuner</string>
+    <string name="contact_us">تماس با ما</string>
+    <string name="contact_us_eng">Contact Us</string>
+    <string name="sout_azin">صوت آذین</string>
+    <string name="sout_azin_eng">Sout Azin</string>
+    <string name="music_shop">موزیک شاپ</string>
+    <string name="music_shop_eng">Music Shop</string>
+    <string name="set_language">زبان</string>
+    <string name="set_language_eng">Language</string>
+
+    <!--<string name="first_page_farsi">وابستگی تنگاتنگ هنر امروز به صنعت رایانه، آشكارتر از آن است كه نیاز به توضیح و تفسیر باشد.همین بس كه رقابت هنری در جهان امروز بدون بهره گیری از پیشرفت های دیجیتالی ناممكن می نماید.در این خصوص كشور ما اگر چه تاكنون نوآوری در زمینه كاربرد فناوری دیجیتال در هنر نبوده، ولی در خصوص استفاده از فناوری های موجود تا حد امكان گام برداشته است و هم اكنون بسیاری از هنرهای ایران از جمله سینما و گرافیك به میزان قابل توجهی از فناوری روز دیجیتال بهره می برند.-->
+
+        <!--اما در خصوص موسیقی این بهره مندی بسیار پایین است.زیرا نرم افزارها و سخت افزارهای موسیقی موجود در بازار جهان بر اساس ویژگی های موسیقی غربی طراحی و ساخته شده اند كه به جز برخی موارد مشترك و سازگار با موسیقی ایران، در دیگر موارد به كار هنرمندان موسیقی ایرانی و بطور كلی شرقی نمی آیند.-->
+
+        <!--بر این اساس و نظر به نیاز روزافزون موسیقیدانان شرقی ساكن در منطقه آسیای میانه بویژه خاور میانه (ملیتهای ایرانی، عربی، تركی و ...)، طراحی و ساخت یك نرم افزار خاص موسیقی شرقی با قابلیت چند زبانه بودن به شدت احساس می شود.ما این نرم افزار را به افتخار بزرگ موسیقیدان ایران و جهان اسلام، ابونصر محمد فارابی، « نرم افزار جامع موسیقی فارابی » نام گذاری نمودیم.</string>-->
+
+    <!--<string name="farabi_introduction">اپلیکیشن مدرسه فارابی شامل مجموعه ای گردآوری شده از متون تحقیقی و آموزشی همچنین اسناد صوتی و تصویری درباره موسیقی ایران و جهان می باشد.-->
+<!--این اپلیکیشن قبلا به صورت یک بسته نرم افزاری فاخر در شان محصول و نام فارابی توسط شرکت صوت آذین به بازار عرضه شده بود و اینک با گسترس فن آوری های جدید و فراگیر شدن آنها با فنا آوری جدید به دوستداران موسیقی عرضه می شود.-->
+<!--برای دریافت آثار صوتی و کلیپ ها و همچنین ابراز کمک آموزشی علاقه مندان می توانند بسته نرم افزاری مدرسه فارابی را از سایت <a href="http://www.musicshop.ir">فروشگاه ما  </a> یا از فروشگاههای  معتبر موسیقی تهیه نمایند.-->
+<!--</string>-->
+
+    <string name="farabi_introduction_en">Farabi School application, is an online encyclopedia dedicated to the Persian and world music. This app provides a vast number of texts, pictures and rare video clips introducing the basics of the Persian music, oriental instruments and also renowned musicians.</string>
+
+    <string name="first_page_english"></string>
+    <string name="read">خواندم</string>
+
+
+</resources>

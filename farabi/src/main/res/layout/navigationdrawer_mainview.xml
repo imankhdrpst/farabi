@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan_A700">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_drawer_menu_upper">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_drawer_menu_upper_shadow"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_drawer_menu_upper_shadow"
+                        android:background="@drawable/gradient_menu_back"
+                        android:alpha="0.3"
+                        android:layout_centerInParent="true"
+                        />
+
+
+                </RelativeLayout><!-- name and number holder -->
+
+            </RelativeLayout><!-- upper section -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lay_menu_language"
+                    android:paddingRight="@dimen/padding_left_drawer_menu_items"
+                    android:layout_weight="2">
+
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:id="@+id/txt_menu_language"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.85"
+                        android:gravity="center_vertical|right"
+                        android:textSize="@dimen/txt_size_drawer_menu_title_size"
+                        app:teleniumTypeFace="iransans" />
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.15"
+                        android:text="\uF024"
+                        android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"
+                        android:gravity="center"
+                        app:teleniumTypeFace="fontawesome"
+                        android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_shadow_in_seperator_drawer_menu"
+                    android:background="@drawable/gradient_drawable_back"
+                    android:alpha="0.15"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_action_bar_items"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blue_grey_500"
+                     /><!--ly divider black-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blue_grey_200"/><!--ly divider gray -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_shadow_in_seperator_drawer_menu"
+                    android:background="@drawable/gradient_drawable_back_reverse"
+                    android:alpha="0.15"
+                    android:layout_centerInParent="true"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lay_menu_sout_azin"
+                    android:paddingRight="@dimen/padding_left_drawer_menu_items"
+                    android:layout_weight="2">
+
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:id="@+id/txt_menu_sout_azin"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.85"
+                        android:gravity="center_vertical|right"
+                        android:textSize="@dimen/txt_size_drawer_menu_title_size"
+                        app:teleniumTypeFace="iransans" />
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.15"
+                        android:text="\uF140"
+                        android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"
+                        android:gravity="center"
+                        app:teleniumTypeFace="fontawesome"
+                        android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lay_menu_music_shop"
+                    android:paddingRight="@dimen/padding_left_drawer_menu_items"
+                    android:layout_weight="2">
+
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:id="@+id/txt_menu_music_shop"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.85"
+                        android:gravity="center_vertical|right"
+                        android:textSize="@dimen/txt_size_drawer_menu_title_size"
+                        app:teleniumTypeFace="iransans" />
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.15"
+                        android:text="\uF001"
+                        android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"
+                        android:gravity="center"
+                        app:teleniumTypeFace="fontawesome"
+                        android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_shadow_in_seperator_drawer_menu"
+                    android:background="@drawable/gradient_drawable_back"
+                    android:alpha="0.15"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/margin_action_bar_items"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blue_grey_500"
+                    /><!--ly divider black-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blue_grey_200"/><!--ly divider gray -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_shadow_in_seperator_drawer_menu"
+                    android:background="@drawable/gradient_drawable_back_reverse"
+                    android:alpha="0.15"
+                    android:layout_centerInParent="true"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lay_menu_rohab_app"
+                    android:paddingRight="@dimen/padding_left_drawer_menu_items"
+                    android:layout_weight="2"
+                    >
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:id="@+id/txt_menu_rohab_app"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.85"
+                        android:textSize="@dimen/txt_size_drawer_menu_title_size"
+                        android:gravity="center_vertical|right"
+                        app:teleniumTypeFace="iransans"
+                        />
+
+
+                    <com.soutazin.farabiSchool.ui.DPTextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
+                        android:layout_weight="0.15"
+                        android:text="\uf129"
+                        android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"
+                        android:gravity="center"
+                        app:teleniumTypeFace="fontawesome"
+                        android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout><!-- menu ityems -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_drawer_menu_upper"
+                android:layout_alignParentBottom="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_drawer_menu_upper_shadow"
+                    android:layout_alignParentBottom="true"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_drawer_menu_upper_shadow"
+                        android:background="@drawable/gradient_menu_back_reverse"
+                        android:alpha="0.3"
+                        android:layout_centerInParent="true"
+                        />
+
+
+                </RelativeLayout><!-- name and number holder -->
+
+            </RelativeLayout><!-- upper section -->
+        </RelativeLayout><!-- activity_main menu -->
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

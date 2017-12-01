@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.soutazin.farabiSchool.Activity.SplashScreenActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/instnt_msg_action_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_main_actionbar"
+                    android:background="@color/cyan_A700">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical"
+                        >
+
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/farabi"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginLeft="@dimen/farabi_icon_actionbar_margin_left"
+                            />
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout><!-- whole action bar for instant messaging -->
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/farabi_school_pager_main_margin"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shadow"
+                android:orientation="vertical"
+                >
+
+                <com.soutazin.farabiSchool.ui.DpJustifyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/grey_700"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_main_text_content"
+                    android:lineSpacingExtra="@dimen/line_spacing_main_content"
+                    android:id="@+id/txt_first_page_text"
+                    android:layout_margin="@dimen/margin_action_bar_items"
+                    />
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/btn_skip_intro"
+                    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+                    android:layout_height="@dimen/height_live_button_splash"
+                    android:layout_width="@dimen/width_live_button_splash"
+                    android:text="@string/read"
+                    android:layout_marginTop="@dimen/margin_action_bar_items"
+                    android:layout_marginBottom="@dimen/margin_action_bar_items"
+                    android:textColor="@color/app_white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_main_text_content"
+                    livebutton:corners="@dimen/live_button_corners"
+                    livebutton:normalHeight="@dimen/live_button_normal_height"
+                    livebutton:pressedHeight="@dimen/live_button_pressed_height"
+                    livebutton:backgroundColor="@color/cyan_A700"
+                    livebutton:shadowColor="@color/cyan_A400"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
