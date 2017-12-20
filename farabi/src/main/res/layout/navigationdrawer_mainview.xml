@@ -192,41 +192,41 @@
                     />
 
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/lay_menu_rohab_app"
-                    android:paddingRight="@dimen/padding_left_drawer_menu_items"
-                    android:layout_weight="2"
-                    >
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:id="@+id/lay_menu_rohab_app"-->
+                    <!--android:paddingRight="@dimen/padding_left_drawer_menu_items"-->
+                    <!--android:layout_weight="2"-->
+                    <!--&gt;-->
 
-                    <com.soutazin.farabiSchool.ui.DPTextView
-                        android:id="@+id/txt_menu_rohab_app"
-                        android:layout_width="0dp"
-                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
-                        android:layout_weight="0.85"
-                        android:textSize="@dimen/txt_size_drawer_menu_title_size"
-                        android:gravity="center_vertical|right"
-                        app:teleniumTypeFace="iransans"
-                        />
-
-
-                    <com.soutazin.farabiSchool.ui.DPTextView
-                        android:layout_width="0dp"
-                        android:layout_height="@dimen/wh_drawer_menu_icon_size"
-                        android:layout_weight="0.15"
-                        android:text="\uf129"
-                        android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"
-                        android:gravity="center"
-                        app:teleniumTypeFace="fontawesome"
-                        android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"
-                        />
+                    <!--<com.soutazin.farabiSchool.ui.DPTextView-->
+                        <!--android:id="@+id/txt_menu_rohab_app"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="@dimen/wh_drawer_menu_icon_size"-->
+                        <!--android:layout_weight="0.85"-->
+                        <!--android:textSize="@dimen/txt_size_drawer_menu_title_size"-->
+                        <!--android:gravity="center_vertical|right"-->
+                        <!--app:teleniumTypeFace="iransans"-->
+                        <!--/>-->
 
 
+                    <!--<com.soutazin.farabiSchool.ui.DPTextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="@dimen/wh_drawer_menu_icon_size"-->
+                        <!--android:layout_weight="0.15"-->
+                        <!--android:text="\uf129"-->
+                        <!--android:textSize="@dimen/txt_size_drawer_menu_icon_item_text_size"-->
+                        <!--android:gravity="center"-->
+                        <!--app:teleniumTypeFace="fontawesome"-->
+                        <!--android:layout_marginRight="@dimen/drawer_menu_item_icon_padding_right"-->
+                        <!--/>-->
 
 
-                </LinearLayout>
+
+
+                <!--</LinearLayout>-->
 
 
 

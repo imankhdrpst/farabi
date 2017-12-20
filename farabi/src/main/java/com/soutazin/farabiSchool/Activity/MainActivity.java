@@ -32,7 +32,8 @@ public class MainActivity extends Activity implements
         BaseFragment.BackHandlerInterface        {
 
     private DrawerLayout mDrawerLayout;
-    private LinearLayout layRohabApp;
+//    private LinearLayout layRohabApp;
+//    private DPTextView txtRohabApp;
     private LinearLayout layLanguage;
     private LinearLayout layMusicShop;
     private LinearLayout laySoutAzin;
@@ -43,7 +44,6 @@ public class MainActivity extends Activity implements
     private LinearLayout layMainButtonHolder;
     private ArrayList<Part> partsList = new ArrayList<>();
     private LinearLayout lastMainButtonSelected = null;
-    private DPTextView txtRohabApp;
     private DPTextView txtSoutAzin;
     private DPTextView txtMusicShop;
     private DPTextView txtLanguage;
@@ -81,8 +81,8 @@ public class MainActivity extends Activity implements
         }
 
 
-        layRohabApp = (LinearLayout) findViewById(R.id.lay_menu_rohab_app);
-        txtRohabApp = (DPTextView) findViewById(R.id.txt_menu_rohab_app);
+//        layRohabApp = (LinearLayout) findViewById(R.id.lay_menu_rohab_app);
+//        txtRohabApp = (DPTextView) findViewById(R.id.txt_menu_rohab_app);
         laySoutAzin = (LinearLayout) findViewById(R.id.lay_menu_sout_azin);
         txtSoutAzin = (DPTextView) findViewById(R.id.txt_menu_sout_azin);
         layMusicShop = (LinearLayout) findViewById(R.id.lay_menu_music_shop);
@@ -102,14 +102,14 @@ public class MainActivity extends Activity implements
 
         if (PreferencesHelper.getInstance().isNowPersian())
         {
-            txtRohabApp.setText(getString(R.string.rohab_app));
+//            txtRohabApp.setText(getString(R.string.rohab_app));
             txtSoutAzin.setText(getString(R.string.sout_azin));
             txtMusicShop.setText(getString(R.string.music_shop));
             txtLanguage.setText(getString(R.string.set_language));
         }
         else
         {
-            txtRohabApp.setText(getString(R.string.rohab_app_en));
+//            txtRohabApp.setText(getString(R.string.rohab_app_en));
             txtSoutAzin.setText(getString(R.string.sout_azin_eng));
             txtMusicShop.setText(getString(R.string.music_shop_eng));
             txtLanguage.setText(getString(R.string.set_language_eng));
@@ -119,12 +119,12 @@ public class MainActivity extends Activity implements
         displayableName = "";
 
 
-        layRohabApp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.soutazin.turkishtunerdemo")));
-            }
-        });
+//        layRohabApp.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=com.soutazin.turkishtunerdemo")));
+//            }
+//        });
 
         layLanguage.setOnClickListener(new View.OnClickListener() {
             @Override
