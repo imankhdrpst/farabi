@@ -47,6 +47,8 @@ public class MainActivity extends Activity implements
     private DPTextView txtSoutAzin;
     private DPTextView txtMusicShop;
     private DPTextView txtLanguage;
+    private DPTextView txtRefrences;
+    private LinearLayout layRefrences;
 
     private void setupDrawerContent(NavigationView navigationView) {
         navigationView.setNavigationItemSelectedListener(
@@ -87,6 +89,8 @@ public class MainActivity extends Activity implements
         txtSoutAzin = (DPTextView) findViewById(R.id.txt_menu_sout_azin);
         layMusicShop = (LinearLayout) findViewById(R.id.lay_menu_music_shop);
         txtMusicShop = (DPTextView) findViewById(R.id.txt_menu_music_shop);
+        txtRefrences = (DPTextView) findViewById(R.id.txt_menu_rohab_ref);
+        layRefrences = (LinearLayout) findViewById(R.id.lay_menu_rohab_ref);
         layLanguage = (LinearLayout) findViewById(R.id.lay_menu_language);
         txtLanguage = (DPTextView) findViewById(R.id.txt_menu_language);
 //        layWatchVideo = (LinearLayout) findViewById(R.id.txt_menu_watch_video);
@@ -106,6 +110,7 @@ public class MainActivity extends Activity implements
             txtSoutAzin.setText(getString(R.string.sout_azin));
             txtMusicShop.setText(getString(R.string.music_shop));
             txtLanguage.setText(getString(R.string.set_language));
+            txtRefrences.setText(getString(R.string.refrences));
         }
         else
         {
@@ -113,6 +118,7 @@ public class MainActivity extends Activity implements
             txtSoutAzin.setText(getString(R.string.sout_azin_eng));
             txtMusicShop.setText(getString(R.string.music_shop_eng));
             txtLanguage.setText(getString(R.string.set_language_eng));
+            txtRefrences.setText(getString(R.string.refrences_en));
         }
 
 
@@ -154,6 +160,14 @@ public class MainActivity extends Activity implements
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+            }
+        });
+
+        layRefrences.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RefrenceActivity.class);
+                startActivity(intent);
             }
         });
 

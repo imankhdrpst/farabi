@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/instnt_msg_action_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_main_actionbar"
+                    android:background="@color/cyan_A700">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical"
+                        >
+
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/farabi"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginLeft="@dimen/farabi_icon_actionbar_margin_left"
+                            />
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout><!-- whole action bar for instant messaging -->
+
+
+        </RelativeLayout>
+
+        <com.soutazin.farabiSchool.ui.DPTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_description_in_subject_item"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:teleniumTypeFace="iransans"
+            android:background="@android:drawable/toast_frame"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/white"
+            android:text="منابع مورد استفاده در مدرسه فارابی"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:layout_margin="@dimen/farabi_school_pager_main_margin"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="1- هزار سال وزن در موسیقی ایران، رضا ترشیزی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="2- درک و دریافت موسیقی نوشته راجر کیمی ین، برگردان حسین یاسینی، نشر چشمه، تهران 1380"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="3- سنت و تحول در موسیقی ایرانی، نوشته ژان دورینگ، برگردان سودابه فضائلی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="4- روش ساختن سه تار، ناصر شیرازی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="5- شیوه نی نوازی و شناخت سازهای بادی ایران، محمد علی کیانی نژاد"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="6- شیوه کمانچه نوازی، مهدی آذرسینا"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="7- موسیقی الکبیر، حکیم ابونصر فارابی برگردان ابوالفضل بافنده، اسلام دوست"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="8- شیوه کمانچه نوازی، مهدی آذرسینا"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="9- سرگذشت موسیقی ایران، روح الله خالقی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="10- هفت دستگاه موسیقی ایران، مجید کیانی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="11- تئوری موسیقی، مصطفی کمال پورتراب"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="12- تئوری بنیادی موسیقی، پرویز منصوری"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="13- هارمونی تحلیلی، پرویز منصوری"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="14- نگاه به غرب نوشته محمدرضا درویشی، نشر موسسه ماهور، تهران 1371"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="15- دانشنامه اینترنتی ویکی پدیا ، http://www.wikipedia.org"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="16- پایگاه اینترنتی هارمونی تاک، http://www.harmonytalk.com"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="17- پایگاه اینترنتی عود ایران http://www.iranianoud.com"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="18- پایگاه اینترنتی موسسه فرهنگی هنری پارپیرار، http://parpirar.org"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="19- موسیقی بختیاری، 6 نوار کاست همراه یک دفترچه به کوشش حمیدرضا اردلان، نشر انجمن موسیقی ایران"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="20- موسیقی لرستان، 6 نوار کاست همراه یک دفترچه به کوشش حمیدرضا ادرلان، نشر انجمن موسیقی ایران"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="21- موسیقی ترکمن، 6 نوار کاست همراه یک دفترچه به کوشش جهانگیر نصری اشرفی، نشر انجمن موسیقی ایران"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="22- فیلم نخستین جشنواره موسیقی مقامی خراسان، قوچان ، اسفند 1380"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="23- فیلم کنسرت گروه های سه گانه شیدا به سرپرستی محمدرضا لطفی، تهران اردیبهشت 1387"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="24- فیلم نخستین جشنواره جهانی سنتور نوازان، تهران تابستان 1382 فرهنگسرای نیاوران"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="25- جشنواره هفت اورنگ، 4 نوار کاست به کوشش محمدرضا درویشی، حوزه هنری 1371"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="26- کوچ با عشق شقایق (بررسی هنر در ایل قشقایی) نوشته منوچهر کیانی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="27- مجموعه فیلم های رادیو تلویزیون ملی ایران از جشن هنر شیراز 1346-1357"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="28- مجموعه آثار صوتی و تصویری موسسه فرهنگی هنری ماهور"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="29- پرده عشاق (مجموعه نغمات مذهبی تهران معاصر) به کوشش موسسه نغمه شهر، تهران 1385"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="30- لوح تصویری ونگ و وا شبی با شعر و وسیقی مازندران، نشر پارپیرار، تهران 1386"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="31- گنج سوخته، 8 نوار کاست شامل مجموعه ضبط های موسیقی دوران قاجار، به کوشش فرهنگ رجایی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="32- پایگاه اینترنتی سیامک آقایی http://www.siamakaghaei.com"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="34- پایگاه اینترنتی مازیار کربلائی http://www.karbalaee.com"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="35- فیلم کنسرت سنتورنوازان به سرپرستی سیامک آقایی"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="36- فیلم تجلیل از پدیدآورندگان سرود و موسیقی انقلاب، نشر موسسه نغمه شهر"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="37- لوح تصویری ککی ویژه دومین جشنواره فرهنگی هنری مازندران، نشر پارپیرار، تهران 1387"
+                    />
+
+                <com.soutazin.farabiSchool.ui.DPTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description_in_subject_item"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    app:teleniumTypeFace="iransans"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@android:color/black"
+                    android:text="38- وبلاگ موسیقی ما http://www.our-music.blogfa.com"
+                    />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
